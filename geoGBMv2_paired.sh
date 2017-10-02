@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #space separated list of dirs
-pathname=("/home/chris/geoSubmissions/GBM/RNA-Seq/FCC28YK_20130729" "/home/chris/geoSubmissions/GBM/RNA-Seq/FCD28D8_20130702")
+pathname=("/home/chris/geoSubmissions/RNA-Seq/" "/home/chris/geoSubmissions/RNA-Seq/")
 echo "dir list is: "${pathname[@]}
 
-tmp=("/home/chris/geoSubmissions/GBM/RNA-Seq/tmp")
+tmp=("/home/chris/geoSubmissions/RNA-Seq/tmp")
 echo "temp folder is: "$tmp
 
 for d in ${pathname[@]}
